@@ -176,7 +176,11 @@ typedef enum {
 /** 轮播文字label对齐方式 */
 @property (nonatomic, assign) NSTextAlignment titleLabelTextAlignment;
 
+/** 分页控件小圆标间距 */
+@property (nonatomic, assign) CGFloat spacingBetweenDots;
 
+/** 分页控件小圆标距离底部距离 */
+@property (nonatomic, assign) CGFloat pageControlBottomDistance;
 //////////////////////  清除缓存接口  //////////////////////
 
 /** 清除图片缓存（此次升级后统一使用SDWebImage管理图片加载和缓存）  */
